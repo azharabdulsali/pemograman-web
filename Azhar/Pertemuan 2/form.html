@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pemesanan Makanan</title>
+  </head>
+  <body>
+    <form>
+      <table border="1">
+        <tr>
+          <td colspan="3" align="center" bgcolor="#40E0D0">
+            Form Pemesanan Makanan
+          </td>
+        </tr>
+        <tr bgcolor="#DFFF00">
+          <td>Nama</td>
+          <td>:</td>
+          <td><input type="text" name="nama" /></td>
+        </tr>
+        <tr bgcolor="#DFFF00">
+          <td>No HP</td>
+          <td>:</td>
+          <td><input type="tel" name="no_hp" /></td>
+        </tr>
+        <tr bgcolor="#DFFF00">
+          <td>Email</td>
+          <td>:</td>
+          <td><input type="email" name="email" /></td>
+        </tr>
+      </table>
+
+      <fieldset>
+        <legend>Makanan apa yang anda butuhkan?</legend>
+        <table>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Minuman</label></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Makanan Ringan</label></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Makanan Berat</label></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <fieldset>
+        <legend>Tambahan lain?</legend>
+        <table>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Snack</label></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Gorengan</label></td>
+          </tr>
+          <tr>
+            <td><input type="checkbox" /></td>
+            <td><label for="">Air Es</label></td>
+          </tr>
+        </table>
+      </fieldset>
+
+      <label
+        >Waktu pengantaran?
+        <input type="datetime-local" name="waktu_pengantaran" /></label
+      ><br />
+
+      <label
+        >Tempat Pengantaran
+        <select name="tempat_pengantaran">
+          <option value="" disabled selected>- Pilih -</option>
+          <option value="Rumah">Rumah</option>
+          <option value="Kantor">Kantor</option>
+          <option value="Kost">Kost</option>
+        </select></label
+      ><br />
+
+      <label>Catatan Khusus <textarea name="catatan_khusus"></textarea></label
+      ><br />
+
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
