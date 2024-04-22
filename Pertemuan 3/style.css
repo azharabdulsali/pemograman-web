@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+    color: #333;
+}
+
+.kiri {
+    width: 100%;
+    background-color: #FFFAB7;
+    padding: 20px;
+}
+
+.kanan {
+    background-color: #FFD1E3;
+    width: 100%;
+    padding: 20px;
+}
+
+.image-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("https://media.licdn.com/dms/image/D4E03AQEoenLNUujRVw/profile-displayphoto-shrink_800_800/0/1688359039207?e=2147483647&v=beta&t=YJ3tGWhT7lZISPXMKBlEeXNc53Bbcb8dw0xC52fF2Xg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.content {
+    color: black;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #5BBCFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: black;
+    line-height: 1.6;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
