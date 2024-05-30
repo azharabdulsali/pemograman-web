@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Class Static Methods</h1>
+
+    <p id="demo"></p>
+
+    <script>
+      class Car {
+        constructor(name) {
+          this.name = name;
+        }
+        static mobil(x) {
+          return "Mobil " + x.name;
+        }
+      }
+
+      const myCar = new Car("Tesla");
+      document.getElementById("demo").innerHTML = Car.mobil(myCar);
+    </script>
+  </body>
+</html>
